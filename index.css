@@ -1,0 +1,10 @@
+h1 {
+    border-top: 5px double;
+    border-bottom: 5px double;
+    background-color: #0096C7;
+    font-family: Courgette;
+    padding: 0.5em;
+    font-size: 2em;
+    line-height: 1em;
+    margin: 5px 0px 0px 0px;
+  }
