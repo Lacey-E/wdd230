@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto:wght@100&display=swap");
+
+h1 {
+  border-top: 5px double;
+  border-bottom: 5px double;
+  background-color: #a1ceaf;
+  font-family: "Roboto", Sans-Serif;
+  padding: 1em;
+  font-size: 2em;
+  line-height: 1em;
+  margin: 5px 0px 0px 0px;
+  font-stretch: expanded;
+}
+
+h2 {
+  font-family: "Roboto", Sans-Serif;
+  padding: 2em;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 5px 0px 0px 0px;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #a1ceaf;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+body {
+  background-color: darkslategrey;
+  font-family: Roboto;
+}
+
+.bioimage {
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #999;
+  height: fit-content;
+}
+
+footer {
+  border-top: 5px double;
+  border-bottom: 5px double;
+  background-color: #a1ceaf;
+  height: 55px;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  color: red;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
