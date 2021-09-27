@@ -1,0 +1,26 @@
+h1 {
+    border-top: 4px double;
+    border-bottom: 4px double;
+    font-family:'Yaldevi', sans-serif;
+    padding: 1em;
+    font-size: 1.5em;
+    line-height: 0.5em;
+    margin: 5px 0px 0px 0px;
+    background-color: aqua;
+  }
+  
+  p {
+    font-family: 'Abel', sans-serif;
+    padding: 2em;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin: 5px 0px 0px 0px;
+  }
+
+  main{
+      grid-template-columns: 1fr 1fr 1fr; 
+  }
+
+  .img-1{
+      
+  }
