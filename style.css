@@ -5,10 +5,10 @@ h1 {
   border-bottom: 4px double;
   font-family: "Roboto", Sans-Serif;
   padding: 1em;
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 0.5em;
   margin: 5px 0px 0px 0px;
-  width:fit-content;
+  width: fit-content;
 }
 
 h2 {
@@ -17,11 +17,12 @@ h2 {
   font-size: 1.5em;
   line-height: 1em;
   margin: 5px 0px 0px 0px;
+  color: yellow;
 }
 
 body {
   background-color: darkslategrey;
-  
+
 }
 
 .bioimage {
@@ -43,7 +44,7 @@ footer {
 }
 
 nav a {
-  color: black;
+  color: yellow;
   text-decoration: none;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
@@ -56,11 +57,11 @@ nav a:hover {
 header {
   background-color: white;
   padding: 0.5em;
-  
+
 }
 
 .content {
-  background-color:mediumseagreen;
+  background-color;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   max-width: 960px;
   margin: 0 auto;

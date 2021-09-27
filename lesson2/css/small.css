@@ -1,26 +1,52 @@
 h1 {
-    border-top: 4px double;
-    border-bottom: 4px double;
-    font-family:'Yaldevi', sans-serif;
-    padding: 1em;
-    font-size: 1.5em;
-    line-height: 0.5em;
-    margin: 5px 0px 0px 0px;
-    background-color: aqua;
-  }
-  
-  p {
-    font-family: 'Abel', sans-serif;
-    padding: 2em;
-    font-size: 1.5em;
-    line-height: 1em;
-    margin: 5px 0px 0px 0px;
-  }
+  border-top: 4px double;
+  border-bottom: 4px double;
+  font-family: "Yaldevi", sans-serif;
+  padding: 1em;
+  font-size: 1.5em;
+  line-height: 0.5em;
+  margin: 5px 0px 0px 0px;
+  background-color: goldenrod;
+}
 
-  main{
-      grid-template-columns: 1fr 1fr 1fr; 
-  }
+p {
+  font-family: "Abel", sans-serif;
+  padding: 2em;
+  font-size: 1.5em;
+  line-height: 1em;
+  margin: 5px 0px 0px 0px;
+}
 
-  .img-1{
-      
-  }
+main {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+  border: 0.5px solid #ccc;
+  padding: 7px;
+  box-shadow: 3px 3px 3px #999;
+  height: fit-content;
+}
+
+.content {
+  background-color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+body {
+  background-color: black;
+}
+
+footer {
+  border-top: 5px double;
+  border-bottom: 5px double;
+  background-color: darkgoldenrod;
+  height: 55px;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
