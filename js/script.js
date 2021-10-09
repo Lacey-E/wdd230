@@ -3,7 +3,5 @@ const finalday = (date.getFullYear());
 document.querySelector('#year').innerHTML = finalday
 
 
-const time = new Date();
-document.querySelector('#time').innerHTML = time
-
+document.querySelector('#time').innerHTML = date.toDateString();
   

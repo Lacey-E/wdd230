@@ -1,0 +1,95 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #74c69d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-title {
+  display: flex;
+  padding: 0em 2em;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #74c69d;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  padding-top: .5em;
+  padding-bottom: 7em;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: #081C15;
+}
+h3 {
+  font-family: "Explora", cursive;
+  font-size: 25px;
+}
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #555;
+}
+
+
+nav {
+  background-color: #74c69d;
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: #081c15;
+  border-top: solid #db5461;
+}
+
+nav ul li a:hover {
+  background-color: #ffd9ce;
+}
+
+.contact{
+padding-top: .5em;
+padding-bottom: .5em;
+text-align: center;
+}
+
+.social img {
+    height: 55px;
+  }
+nav ul.hide {
+  display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*end medium */
