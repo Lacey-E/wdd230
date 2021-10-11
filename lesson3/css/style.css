@@ -9,7 +9,7 @@ h1 {
   line-height: 0.5em;
   margin: 5px 0px 0px 0px;
   width: fit-content;
-  color: black;
+  color: white;
 }
 
 h2 {
@@ -23,14 +23,9 @@ h2 {
 
 body {
   background-color: darkslategrey;
- 
-}
-
-.bioimage {
-  border: 0.5px solid #ccc;
-  padding: 7px;
-  box-shadow: 3px 3px 3px #999;
-  height: fit-content;
+  color: white;
+  font-family: Roboto, Sans-Serif;
+  font-size: 22px;
 }
 
 footer {
@@ -60,18 +55,9 @@ header {
   padding: 0.5em;
 
 }
-.byu-link{
-  color: black;
- display: block;
-  font-family: Roboto, Sans-Serif;
-  font-size: 15px;
-
-}
 .content {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   max-width: 960px;
   margin: 0 auto;
   font-size: 1em;
- 
-
 }
