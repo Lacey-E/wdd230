@@ -6,10 +6,10 @@ h1 {
   font-family: "Roboto", Sans-Serif;
   padding: 1em;
   font-size: 2em;
-  line-height: 0.5em;
+  line-height: 1em;
   margin: 5px 0px 0px 0px;
   width: fit-content;
-  color: white;
+  color: yellow;
 }
 
 h2 {
@@ -36,8 +36,10 @@ footer {
   padding: 0.5em;
   color: black;
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 nav a {
   color: yellow;
@@ -53,7 +55,6 @@ nav a:hover {
 header {
   background-color: white;
   padding: 0.5em;
-
 }
 .content {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
