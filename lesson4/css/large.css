@@ -36,4 +36,10 @@ footer {
     padding-bottom: .5em;
   }
 
+  main{
+    max-width: 960px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
 } /*end large */
