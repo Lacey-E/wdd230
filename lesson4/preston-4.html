@@ -1,88 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
 
-    <title>Preston</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Preston</title>
+  <link rel="short icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Explora&family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/large.css" />
+</head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Explora&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/large.css" />
-  </head>
+<body>
+  <div class="content">
+  <header>
+    <picture>
+      <img class="logo-img" src="images/18095_clouds_sun_weather_icon.png" alt="company logo" /></picture>
+    <section class="header-title">
+      <h2>WeatherGirl Naija</h2>
+      <h3 class="phrase">Not just weather</h3>
+    </section>
+    
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;Menu</button>
+    <ul id="primarynav" class="hide">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li class="active"><a href="#">Preston</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Preston, Idaho</h2>
+    <div>
+    <div>
+      <img src="" alt="hero-image" /> </div>
+  <section>
+  <h3>Weather Summary</h3>
+  </section>
+    </div>
+    <article>
+      <h3>Article post</h3>
+    </article>
+  </main>
+  <footer>
+    <div class="contact">
+      &copy; 2021 | Esther Ezimadu | WDD 230 | Modified: |
+      <span id="time"></span>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com/esther.ezimadu/" target="_blank"><img
+          src="https://cdn.glitch.com/9cb139cb-a2b6-4f81-8781-793924adbff1%2Ffacebook.logo.png?v=1621611732987"
+          alt="facebook logo" /></a>
 
-  <body>
-    <header>
-      <picture>
-        <img
-          class="logo-img"
-          src="images/weather_clouds.png"
-          alt="company logo"
-      /></picture>
-      <section class="header-title">
-        <h2>WeatherGirl Naija</h2>
-        <h3 class="phrase">Not just weather</h3>
-      </section>
-      <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;Menu</button>
-        <ul id="primarynav" class="hide">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Products</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h2>Preston, Idaho</h2>
-      <picture>
-        <img src="" alt="hero-image" />
-      </picture>
+      <a href="https://www.youtube.com/channel/UCh4GHc_2VQyBFCkPWGQ9-SQ" target="_blank"><img
+          src="https://cdn.glitch.com/9cb139cb-a2b6-4f81-8781-793924adbff1%2Fyoutube-logo.png?v=1621611643066"
+          alt="youtube logo" /></a>
 
-      <section>
-        <h2>5 day Forecast</h2>
-      </section>
+      <a href="https://www.instagram.com/starlife_ezim/" target="_blank">
+        <img src="https://cdn.glitch.com/9cb139cb-a2b6-4f81-8781-793924adbff1%2Finstagram.logo.png?v=1621611742725"
+          alt="instagram logo" />
+      </a>
+    </div>
+  </footer>
+</div>
+  <script src="js/script-wk4.js"></script>
 
-      <article><h3>Article post</h3></article>
-    </main>
-    <footer>
-      <div class="contact">
-        &copy; 2021 | Esther Ezimadu | WDD 230 | Modified: |
-        <span id="time"></span>
-      </div>
-      <div class="social">
-        <a href="https://www.facebook.com/esther.ezimadu/" target="_blank"
-          ><img
-            src="https://cdn.glitch.com/9cb139cb-a2b6-4f81-8781-793924adbff1%2Ffacebook.logo.png?v=1621611732987"
-            alt="facebook logo"
-        /></a>
+</body>
 
-        <a
-          href="https://www.youtube.com/channel/UCh4GHc_2VQyBFCkPWGQ9-SQ"
-          target="_blank"
-          ><img
-            src="https://cdn.glitch.com/9cb139cb-a2b6-4f81-8781-793924adbff1%2Fyoutube-logo.png?v=1621611643066"
-            alt="youtube logo"
-        /></a>
-
-        <a href="https://www.instagram.com/starlife_ezim/" target="_blank">
-          <img
-            src="https://cdn.glitch.com/9cb139cb-a2b6-4f81-8781-793924adbff1%2Finstagram.logo.png?v=1621611742725"
-            alt="instagram logo"
-          />
-        </a>
-      </div>
-    </footer>
-    <script src="js/script-wk4.js"></script>
-  </body>
 </html>

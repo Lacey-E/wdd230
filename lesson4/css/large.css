@@ -3,23 +3,30 @@
   nav button {
     display: none;
   }
-
+nav{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
   nav ul li {
     float: left;
+    
   }
 
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
-    padding: 0.6rem 1rem;
+    padding: .6rem 1rem;
+    
   }
   nav ul.hide {
     display: block;
   }
 
-  .header-title {
+   .header-title {
     justify-content: flex-start;
-  }
+  } 
 
 .social{
     text-align: right;
@@ -35,11 +42,21 @@ footer {
     padding-top: .5em;
     padding-bottom: .5em;
   }
-
-  main{
-    max-width: 960px;
-    padding-left: 1em;
-    padding-right: 1em;
+  h2 {
+    font-family: "Explora", cursive; 
+    font-size: 60px;
+    color: #081C15;
   }
+  .content{
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .phrase{
+    margin: -2em;
+    padding-bottom: 3em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;}
 
+    
 } /*end large */
