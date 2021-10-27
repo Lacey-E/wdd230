@@ -20,20 +20,30 @@ function toggleMenu() {
 
 document.querySelector('#message1').textContent = message1;
 
-WebFont.load({
-    google: {
-      families: [
-      'Roboto' ] }});
+// WebFont.load({
+//     google: {
+//       families: [
+//       'Roboto' ] }});
 
 
-function temperature(){
-    var t = parseInt(document.getElementById('temp').value)
-    var forcastTemp = 35.74 + 0.6215 * t 
-    let speed = parseInt(document.getElementById('speed').value)
-    var chill = 35.75 * Math.pow(speed, 0.16) + 0.4275 * t * Math.pow(speed, 0.16)
-    var windchill = forcastTemp - chill
-    return windchill
+
+let t = parseInt(document.querySelector('#temp').innerHTML);
+    
+let speed = parseInt(document.querySelector('#speed').innerHTML);
+    
+let windchill;
+if (t <= 50 && speed >= 3) {
+    windchill = (35.74 + (0.6215 * t) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * t * Math.pow(speed, 0.16))).toFixed(1);
+
 }
+    
+    else{
+        windchill = "N/A"; 
+    }
+
+    
+    document.querySelector('#windchill').textContent = windchill;
+    
 
 
 // function windChillCalculator(){
