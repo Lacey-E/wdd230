@@ -144,13 +144,12 @@ nav ul.hide {
   flex-wrap: wrap;
 }
 
-.content{
-  background-color: white;
-}
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  background-color: #1B4332;
+  background-color: white;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

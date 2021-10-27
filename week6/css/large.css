@@ -41,13 +41,13 @@
   th {
     font-weight: 700;
     font-size: 1rem;
-    background-color: #DB5461;
+    background-color: #1B4332;
     color: white;
   }
 
   .flex-col {
     flex: 1 1 auto;
-    background-color: #bed;
+    background-color: #74C69D;
   }
 
   .flex-col,
