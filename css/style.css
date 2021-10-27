@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto, Sans-Serif;
+  font-family: 'Roboto', Sans-Serif;
   padding: 2em;
   font-size: 1.5em;
   line-height: 1em;
@@ -59,6 +59,7 @@ nav a:hover {
 header {
   background-color: white;
   padding: 0.5em;
+  text-align: center;
 
 }
 .byu-link{
