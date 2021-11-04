@@ -1,0 +1,30 @@
+
+h1{
+    border-top: double black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: double black;
+    font-size: 45px;
+    color: purple;
+}
+main{
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    grid-gap: 10px;
+}
+picture{
+    grid-column: inherit;
+    display: flex;
+    margin: auto;
+}
+body{
+    background-color: #ccc;
+}
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border: solid grey;
+  }
