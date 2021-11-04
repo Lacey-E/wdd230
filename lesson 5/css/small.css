@@ -26,9 +26,6 @@ header {
 footer {
   background-color: #74c69d;
   font-family: "Roboto", sans-serif;
-  height: 40px;
-  padding-top: .5em;
-  padding-bottom: 7em;
 }
 
 .title {
@@ -150,14 +147,30 @@ nav ul.hide {
   clear: both;
 }
 
+.social {
+  text-align:center;
+  color: white;
+  font-family: 'Explora';
+  font-size: 30px;
+  background-color: #1b4332;
+}
+.contact {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  background-color: #74c69d;
+}
+.map{
+  display: none;
+}
+
 .flex {
-  display: flex;
-  flex-wrap: wrap;
+  display: none;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
+  color: black;
 }
 
 /*end medium */

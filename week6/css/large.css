@@ -161,24 +161,30 @@ h3{
   }
 
 
-  .social {
-    text-align: right;
-
-  }
-
-
     /* footer */
-  .social img {
-    padding-right: .5em;
-    padding-bottom: 1.5em;
-    height: 50px;
+
+  
+  .social {
+    text-align:center;
+    color: white;
+    font-family: 'Explora';
+    font-size: 50px;
+  }
+  .map-space{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1B4332;
+    width: 1500px;
+    padding: 5px;
   }
 
-  footer {
-    height: 70px;
-    padding-top: .5em;
-    padding-bottom: .5em;
+  .map{
+    display: inherit;
   }
+  .contact{
+    padding-top: 3em;
+  }
+  
 
 }
 

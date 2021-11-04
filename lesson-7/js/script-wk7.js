@@ -20,20 +20,6 @@ function toggleMenu() {
 
 document.querySelector('#message1').textContent = message1;
 
-// WebFont.load({
-//     google: {
-//       families: [
-//       'Roboto' ] }});
-
-
-
-
-// function windChillCalculator(){
-//     var windchill 
-//     document.querySelector('#product').value = bmi;
-// }
-
-
 // const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 // const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 // console.log(event.toLocaleDateString(undefined, options));
