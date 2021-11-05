@@ -62,3 +62,7 @@ td {
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
+
+.small{
+    font-size: 20px;
+}
