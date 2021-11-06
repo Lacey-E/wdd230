@@ -32,6 +32,7 @@ table {
 	border-collapse: collapse;
     font-family:  'Ubuntu', sans-serif;
     font-size: 25px;
+	box-shadow: 8px 10px 10px 3px #7fb9c2;
 }
 
 
