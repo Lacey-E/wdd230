@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/tablestyle.css">
 </head>
 <body>
@@ -12,7 +15,7 @@
         
         <thead>
             <tr>
-                <th colspan="3" scope="colgroup">Stright Hill Table</th>
+                <th class="header" colspan="3" scope="colgroup">ACM Wildwest</th>
             </tr>
             <tr>
                 <th scope="col">Period</th>
@@ -21,11 +24,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td scope="row">July</td>
-                <td>$3,000</td>
-                <td>$4000</td>
-            </tr>
+            
             <tr>
                 <td scope="row">August</td>
                 <td>$8,000</td>
@@ -64,5 +63,13 @@
             </tr>
         </tbody>
     </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+  WebFont.load({
+    google: {
+      families: [
+      'Ubuntu'] }});
+</script>
 </body>
 </html>

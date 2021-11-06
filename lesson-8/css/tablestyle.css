@@ -22,7 +22,7 @@
     --border: hsl(0,0%,20%);
     --borderlight: hsl(0,0%,33%);
     --shadow: #e7f0ed;
-    --zebra: #e7f0ed;
+    
 }
 
 table {
@@ -31,15 +31,9 @@ table {
 	box-shadow: 0 0 30px var(--shadow);
 	border-collapse: collapse;
     font-family:  'Ubuntu', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-caption {
-  padding: 10px;
-  caption-side: bottom;
-	color: var(--back);
-	font-size: 1em;
-}
 
 tr:first-child th {
 	background-color: var(--back);
@@ -48,7 +42,11 @@ tr:first-child th {
 
 th, td {
 	padding: 7px 15px;
-	border: 1px solid var(--borderlight);
+	border: 1px solid lightgrey;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7f0ed;
 }
 
 th {
@@ -60,9 +58,13 @@ td {
 }
 
 tbody tr:nth-child(even) {
-	background-color: var(--zebra);
+	background-color:  #e7ffed;
 }
 
 .small{
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.header{
+	font-size: 35px;
 }
