@@ -14,7 +14,7 @@ h1 {
 
 h2 {
   font-family: 'Roboto', Sans-Serif;
-  padding: 2em;
+  padding: 1em;
   font-size: 1.5em;
   line-height: 1em;
   margin: 5px 0px 0px 0px;
@@ -71,5 +71,5 @@ header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   max-width: 960px;
   margin: 0 auto;
-  font-size: 1em;
+  font-size: 15px;
 }

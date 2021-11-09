@@ -1,0 +1,238 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #74c69d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  padding: 0em 2em;
+  flex-direction: column;
+}
+
+footer {
+  padding-top: 0.5em;
+  padding-bottom: 7em;
+}
+
+.social {
+  text-align:center;
+  color: white;
+  font-family: 'Explora';
+  font-size: 30px;
+  background-color: #1b4332;
+}
+
+
+.title {
+  font-family: "Explora", 'cursive';
+  font-size: 35px;
+  color: #081c15;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #db5461;
+}
+
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+  float: right;
+}
+
+.content {
+  padding: 0.2em;
+  max-width: max-content;
+}
+
+.phrase {
+  margin: -2em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  background-color: #1b4332;
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li.active a {
+  background-color: #db5461;
+  color: #fff;
+  text-shadow: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: white;
+  border-top: solid #db5461;
+}
+
+nav ul li a:hover {
+  background-color: #ffd9ce;
+}
+
+.contact {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  background-color: #74c69d;
+}
+
+.social img {
+  height: 55px;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+/* **************** Form****************** */
+
+form fieldset{
+  margin: 2rem 0;
+  border: 5px solid #db5461;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend{
+  color: #db5461;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  font-size: 30px;
+}
+
+form label.top, form div{
+  display: block;
+  padding-top: 2.5rem;
+  color:#1b4332;
+  font-size: 20px;
+  font-family:"Roboto", sans-serif;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 20px;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #db5461;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required{
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid{
+  border-left: green solid 6px;
+}
+
+form{
+  background-color: #fff;
+}
+
+.flexly {
+	display: flex;
+	align-items: center;
+  margin-top: 2rem;
+  font-size: 20px;
+margin-bottom: 1rem;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+	color: #db5461;
+}
+
+
+h1{
+  font-family: 'Explora', sans-serif;
+  font-size: 50px;
+}
+
+.thanks{
+  font-size: 100px;
+  text-align: center;
+  color: #db5461;
+}
+
+
+.return{
+  text-align: center;
+  margin-left: 15rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #1b4332;
+}
+
+/* 
+******************************************************************* */
+
+.map{
+  display: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*end medium */
