@@ -1,0 +1,172 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #74c69d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  padding: 0em 2em;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #74c69d;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  padding-top: 0.5em;
+  padding-bottom: 7em;
+}
+
+.title {
+  font-family: "Explora", cursive;
+  font-size: 35px;
+  color: #081c15;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #db5461;
+}
+
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+  float: right;
+}
+
+.content {
+  padding: 0.3em;
+}
+
+.phrase {
+  margin: -2em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  background-color: #1b4332;
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li.active a {
+  background-color: #db5461;
+  color: #fff;
+  text-shadow: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: white;
+  border-top: solid #db5461;
+}
+
+nav ul li a:hover {
+  background-color: #ffd9ce;
+}
+
+.contact {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+.herodiv {
+  position: relative;
+}
+
+.hero-ph {
+  height: auto;
+  text-align: center;
+}
+
+.weathersummary {
+  max-width: max-content;
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  font-size: 10px;
+  box-shadow: 0 0 20px #db5461;
+  padding: 0.5rem;
+  background: radial-gradient(#74c69d, #1b4332);
+  opacity: 0.9;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.article {
+  display: block;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+  display: none;
+}
+.content {
+  width: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color:#ccc;
+}
+
+.social {
+  text-align:center;
+  color: white;
+  font-family: 'Explora';
+  font-size: 30px;
+  background-color: #1b4332;
+}
+.contact {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  background-color: #74c69d;
+}
+.map{
+  display: none;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*end medium */
