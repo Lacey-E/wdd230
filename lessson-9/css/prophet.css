@@ -30,6 +30,7 @@ img:hover{
 img{
     box-shadow: 5px 0 5px;
    margin-top: -1rem;
+   max-width: 100%;
 }
 
 section:hover{
