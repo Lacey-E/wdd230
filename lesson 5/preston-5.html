@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="content">
+ 
     <header>
       <picture>
         <img class="logo-img" src="images/18095_clouds_sun_weather_icon.png" alt="company logo" /></picture>
@@ -37,7 +37,8 @@
         <li class="active"><a href="#">Preston</a></li>
       </ul>
     </nav>
-    <main>
+    <main class="clearfix">
+      <div class="content">
       <h2 class="preston">Preston, Idaho</h2>
       <div class="herodiv">
         <div class="hero-ph">
@@ -106,6 +107,8 @@
         </article>
         <img class="article-image" src="images/rsz_pexels-yaroslav-shuraev-7166500.jpg" alt=" a girl lying on a snow" />
       </div>
+
+    </div>
     </main>
     <footer>
       <div class="map-space">
@@ -134,7 +137,16 @@
         </div>
         
       </footer>
-  </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Explora", "Roboto"],
+        },
+      });
+    </script>
+ 
   <script src="js/script-wk5.js"></script>
 </body>
 

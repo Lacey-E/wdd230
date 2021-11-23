@@ -4,8 +4,16 @@
 //const dayString = (day.toISOString());
 //document.querySelector('#time').innerHTML = dayString
 
-var date = new Date
-document.getElementById("time").innerHTML = date.toDateString();
+const today = new Date();
+
+const options = {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+};
+let path = today.toLocaleDateString('en-uk', options)
+document.getElementById("time").textContent = path;
 
 function toggleMenu() {
     document.getElementById("primarynav").classList.toggle("hide");

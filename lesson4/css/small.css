@@ -11,6 +11,151 @@ html {
   box-sizing: border-box;
 }
 
+
+/* *****************NAV***************** */
+nav ul.hide {
+   display:none;
+}   
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 5px;
+}
+
+nav {
+  background-color: #1B4332;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+ 
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #fff;
+  border-top: solid #db5461;
+ }
+
+nav ul li:hover {background-color:#FFD9CE;}
+
+nav ul li a:hover {
+  background-color: #ffd9ce
+}
+
+nav ul li.active a{background-color: #db5461;color: #fff;}
+
+nav ul.hidenav {display: none;}
+
+
+
+
+/* ****************footer********************* */
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+.social {
+  text-align:center;
+  color: white;
+  font-family: 'Explora', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  background-color: #1b4332;
+  margin-bottom: -1em;
+}
+
+.map{
+  display: none;
+}
+
+.contact {
+  text-align: center;
+  background-color: #74c69d;
+  position: relative;
+  padding: 2em;
+  height: 4em;
+}
+
+.map{
+  display: none;
+}
+
+/* ***************** Header  ****************** */
+
+header {
+  background-color: #74c69d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.header-title {
+  padding: 0em 2em;
+  flex-direction: column;
+}
+
+
+
+.phrase {
+  margin: -2em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+
+
+/* *************Content************ */
+.content {
+  padding: 10px;
+max-width: 100%;
+
+}
+
+.dcontent{
+  display: block;
+  position: relative;
+  border: 1px solid #db5461;
+  margin: 10px auto;
+  width: 500px;
+  height: 300px;
+  padding:5px;
+}
+h2 {
+  font-family: "Explora", cursive;
+  font-size: 35px;
+  color: #081C15;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+/* *****************previous*********
 header {
   background-color: #74c69d;
   display: flex;
@@ -119,6 +264,7 @@ nav ul.hide {
   padding-bottom: 0.5em;
   text-align: center;
   background-color: #74c69d;
+  height: 5em
 }
 .map{
   display: none;
@@ -131,15 +277,18 @@ footer {
 .contact{
   background-color: #74c69d;
   height: 5em;
-}
+} */
 
 
 
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
+
+
+
+
+
+
+
+
 
 /*end medium */

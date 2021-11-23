@@ -11,7 +11,253 @@ html {
   box-sizing: border-box;
 }
 
+
+nav ul.hide {
+  display:none;
+}   
+nav button {
+ background-color: transparent;
+ border: none;
+ font-size: 2rem;
+ color: #fff;
+ margin-left: 5px;
+}
+
+nav {
+ background-color: #1B4332;
+ font-family: "Roboto", sans-serif;
+ font-size: 20px;
+
+}
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+nav ul li a {
+ display: block;
+ padding: .8rem 2%;
+ text-decoration: none;
+ color: #fff;
+ border-top: solid #db5461;
+}
+
+nav ul li:hover {background-color:#FFD9CE;}
+
+nav ul li a:hover {
+ background-color: #ffd9ce;
+}
+
+nav ul li.active a{background-color: #db5461;color: #fff;}
+
+nav ul.hidenav {display: none;}
+
+
+
+
+/* ****************footer********************* */
+
+footer {
+ font-family: Arial, Helvetica, sans-serif;
+ padding-left: 5px;
+ padding-right: 5px;
+  margin-top: 2rem;
+}
+
+.social {
+ text-align:center;
+ color: white;
+ font-family: 'Explora', Arial, Helvetica, sans-serif;
+ font-size: 30px;
+ background-color: #1b4332;
+ margin-bottom: -1em;
+}
+
+.map{
+ display: none;
+}
+
+.contact {
+ text-align: center;
+ background-color: #74c69d;
+ position: relative;
+ padding: 2em;
+ height: 4em;
+}
+
+.map{
+ display: none;
+}
+
+/* ***************** Header  ****************** */
+
 header {
+ background-color: #74c69d;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-left: 2px;
+ padding-right: 2px;
+}
+
+.header-title {
+ padding: 0em 2em;
+ flex-direction: column;
+}
+
+
+
+.phrase {
+ margin: -2em;
+ padding-bottom: 2em;
+ text-align: center;
+ font-family: "Roboto", sans-serif;
+ font-size: 15px;
+}
+
+
+
+/* *************Content************ */
+.content {
+ padding: 10px;
+max-width: 100%;
+
+}
+
+h2 {
+ font-family: "Explora", cursive;
+ font-size: 35px;
+ color: #081C15;
+}
+
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* *************************************************** */
+form fieldset{
+  margin: 2rem 0;
+  border: 5px solid #db5461;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  max-width: 100%;
+}
+
+form legend{
+  color: #db5461;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  font-size: 30px;
+}
+
+form label.top, form div{
+  display: block;
+  padding-top: 2.5rem;
+  color:#1b4332;
+  font-size: 20px;
+  font-family:"Roboto", sans-serif;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 20px;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #db5461;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 100%;
+  max-width: 20rem;
+}
+
+form label.top input:required{
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid{
+  border-left: green solid 6px;
+}
+
+form{
+  background-color: #fff;
+}
+
+.flexly {
+	display: flex;
+	align-items: center;
+  margin-top: 2rem;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+	color: #db5461;
+}
+
+.thanks{
+  font-size: 100px;
+  text-align: center;
+  color: #db5461;
+}
+
+h1{
+  font-family: 'Explora', sans-serif;
+  font-size: 50px;
+}
+
+
+.return{
+  text-align: center;
+  margin-left: 15rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #1b4332;
+}
+
+
+
+
+
+
+
+
+
+
+/* header {
   background-color: #74c69d;
   display: flex;
   align-items: center;
@@ -115,7 +361,7 @@ nav ul.hide {
   display: none;
 }
 
-/* **************** Form****************** */
+/* **************** Form****************** 
 
 form fieldset{
   margin: 2rem 0;
@@ -216,8 +462,8 @@ h1{
   color: #1b4332;
 }
 
-/* 
-******************************************************************* */
+ 
+******************************************************************* 
 
 .map{
   display: none;
@@ -227,12 +473,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   background-color: white;
-}
+} */
 /*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /*end medium */

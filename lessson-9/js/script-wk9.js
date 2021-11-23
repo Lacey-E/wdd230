@@ -11,7 +11,17 @@ if (dayOfWeek === 5) {
     message1 = 'Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.';
 } 
 
-document.getElementById("time").innerHTML = today.toDateString();
+
+
+const options = {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+};
+let path = today.toLocaleDateString('en-uk', options)
+document.getElementById("time").textContent = path;
+
 
 function toggleMenu() {
     document.getElementById("primarynav").classList.toggle("hide");

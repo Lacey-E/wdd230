@@ -2,7 +2,234 @@
 @media only screen and (min-width: 64rem) {
  
  /* nav main */
-  nav button {
+  
+ 
+ nav button {display: none;}
+
+  
+ nav ul.hide {
+   display:flex;
+}   
+
+ nav ul {
+   margin: 0;
+ }
+ 
+ nav ul {display: flex; }
+ nav ul li {flex: 1 1 100%; }
+
+ nav ul li {float: left;
+ text-align: center;}
+
+ nav ul li a {
+   border: none;
+   flex: 1 1 auto;
+   background-color: #1b4332;
+   color: #fff;
+   font-size: 25px;
+ }
+ 
+ /* *************Footer****** */
+ .map-space{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: #1B4332;
+   width: 100%;
+   
+ }
+
+ footer{
+   margin-top: 5rem;
+ }
+
+ .map{
+   display: inherit;
+ }
+ 
+ 
+ .social {
+   text-align:center;
+   color: white;
+   font-family: 'Explora';
+   font-size: 50px;
+ }
+ 
+ 
+ .contact{
+   padding-top: 3em;
+ }
+ 
+ 
+ /* ******************Header**************** */
+ 
+ .phrase{
+   margin: -2em;
+   padding-bottom: 3em;
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-size: 20px;} 
+ 
+   h2 {
+     font-family: "Explora", cursive; 
+     font-size: 40px;
+     color: #db5461;
+   }
+   
+   .title {
+     font-size: 60px;
+     color: #081C15;
+   }
+
+   
+/* ************5 day weather****************** */
+
+.flex {
+ display: flex;
+ flex-flow: row wrap;
+}
+
+.col-head,
+th {
+ font-weight: 700;
+ font-size: 1rem;
+ background-color: #1B4332;
+ color: white;
+}
+
+.flex-col {
+ flex: 1 1 auto;
+ background-color: #74C69D;
+}
+
+.flex-col,
+.column-col,
+.grid-col {
+ border-bottom: 2px solid #1B4332;
+ border-left: 2px solid #1B4332;
+ text-align: center;
+}
+
+.flex-col:hover,
+td:hover,
+.column-col:hover,
+.grid-col:hover {
+ opacity: 0.75;
+ background-color: #081C15;
+ color: white;
+}
+
+.flex,
+.column,
+.grid {
+ border-right: 1px solid #081C15;
+}
+
+.col-head {
+ display: block;
+ padding: 5px;
+ border-bottom: 1px solid #081C15;
+ text-align: center;
+}
+
+
+.data {
+ display: block;
+ padding: 0 5px 5px;
+ font-size: 1rem;
+ text-align: center;
+ color: #081C15 ;
+}
+
+
+/* ******************Content/Main********************* */
+
+
+.herodiv {
+ width: 100%;
+}
+
+.hero-image {
+ max-width: max-content;
+ margin-left: 20rem;
+}
+
+.preston {
+ padding-left: 60px;
+ margin-bottom: -3px;
+ font-size: 60px;
+}
+
+.article {
+ margin-top: 25rem;
+ background: #1B4332;
+ height: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: stretch;
+ color: white;
+ font-size: 20px;
+
+}
+
+
+#message1 {
+ font-size: 20px;
+}
+
+body {
+ color: black
+}
+
+
+.content{
+ max-width: 1500px;
+ margin: 0 auto;
+ padding: 5px;
+}
+
+
+
+.weathersummary {
+ position: absolute;
+ top: 5px;
+ left: 100px;
+ box-shadow: 0 0 10px #db5461;
+ font-size: 15px;
+ max-width: fit-content;
+ margin-top: 0px;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* nav button {
     display: none;
   }
 
@@ -40,68 +267,7 @@
 
 /* ****************************************************** */
 
-  .flex {
-    display: flex;
-    flex-flow: row wrap;
-  }
-  .col-head,
-  th {
-    font-weight: 700;
-    font-size: 1rem;
-    background-color: #1B4332;
-    color: white;
-  }
-
-  .flex-col {
-    flex: 1 1 auto;
-    background-color: #74C69D;
-  }
-
-  .flex-col,
-  .column-col,
-  .grid-col {
-    border-bottom: 2px solid #db5461;
-    border-left: 2px solid #db5461;
-    text-align: center;
-  }
-
-  .flex-col:hover,
-  td:hover,
-  .column-col:hover,
-  .grid-col:hover {
-    opacity: 0.75;
-    background-color: #081C15;
-    color: white;
-  }
-
-  .flex,
-  .column,
-  .grid {
-    border-right: 1px solid #081C15;
-  }
-
-  .col-head {
-    display: block;
-    padding: 5px;
-    border-bottom: 1px solid #081C15;
-    text-align: center;
-  }
-
-  .data {
-    display: block;
-    padding: 0 5px 5px;
-    font-size: 0.8rem;
-    text-align: center;
-  }
-  .title {
-    font-size: 60px;
-  }
-
-
-
-/* ****************************************************** */
-
-  .content {
+  /* .content { 
     max-width: fit-content;
     margin: 0 auto;
   }
@@ -171,7 +337,7 @@ h3{
     /* footer */
 
   
-  .social {
+  /* .social { 
     text-align:center;
     color: white;
     font-family: 'Explora';
@@ -191,7 +357,7 @@ h3{
   .contact{
     padding-top: 3em;
   }
-  
+   */
 
 }
 

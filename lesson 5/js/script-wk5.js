@@ -4,6 +4,17 @@
 //const dayString = (day.toISOString());
 //document.querySelector('#time').innerHTML = dayString
 const today = new Date();
+
+const options = {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+};
+let path = today.toLocaleDateString('en-uk', options)
+document.getElementById("time").textContent = path;
+
+
 let dayOfWeek;
 dayOfWeek = today.getDay();
 let message1;
@@ -11,14 +22,17 @@ if (dayOfWeek === 5) {
     message1 = 'Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.';
 } 
 
-document.getElementById("time").innerHTML = today.toDateString();
+
+
+
+document.querySelector('#message1').textContent = message1;
+
 
 function toggleMenu() {
     document.getElementById("primarynav").classList.toggle("hide");
 }
 
 
-document.querySelector('#message1').textContent = message1;
 
 // const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 // const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
