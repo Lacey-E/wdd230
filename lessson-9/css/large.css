@@ -204,7 +204,10 @@ td:hover,
     float: right;
   }
   
-  
+  .main-article{
+    width: 1200px;
+  margin-left: 100px;
+  }
 
 
 }
