@@ -11,7 +11,6 @@ if (dayOfWeek === 5) {
     message1 = 'Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.';
 } 
 
-const today = new Date();
 
 const options = {
     weekday: 'long',
