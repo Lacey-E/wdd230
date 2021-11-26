@@ -82,7 +82,11 @@
 
    
 /* ************5 day weather****************** */
-
+.day-image{
+  display: block;
+  margin-top: 10em;
+ 
+}
 .flex {
  display: flex;
  flex-flow: row wrap;
@@ -163,7 +167,7 @@ td:hover,
  margin-top: 13rem;
  background: #1B4332;
  height: 100%;
- margin-right: 5rem;
+ margin-right: 10rem;
  display: flex;
  color: white;
  font-size: 20px;
