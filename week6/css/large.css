@@ -186,7 +186,8 @@ body {
 
 .content{
  max-width: 1300px;
- margin-left: 13rem;
+ margin-left: 5rem;
+ margin-right: 5rem;
  padding: 5px 5px;
 }
 
