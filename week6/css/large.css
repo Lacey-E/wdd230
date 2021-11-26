@@ -153,8 +153,7 @@ td:hover,
 }
 
 .hero-image {
- max-width: max-content;
- margin-left: 20rem;
+ max-width: fit-content;
 }
 
 .preston {
@@ -167,7 +166,6 @@ td:hover,
  margin-top: 13rem;
  background: #1B4332;
  height: 100%;
- margin-right: 10rem;
  display: flex;
  color: white;
  font-size: 20px;
@@ -185,9 +183,9 @@ body {
 
 
 .content{
- max-width: 1300px;
- margin-left: 5rem;
- margin-right: 5rem;
+ max-width: 1200px;
+ margin-left: 7rem;
+ margin-right: 7rem;
  padding: 5px 5px;
 }
 
