@@ -160,12 +160,11 @@ td:hover,
 }
 
 .article {
- margin-top: 25rem;
+ margin-top: 13rem;
  background: #1B4332;
  height: 100%;
+ margin-right: 5rem;
  display: flex;
- justify-content: space-between;
- align-items: stretch;
  color: white;
  font-size: 20px;
 
