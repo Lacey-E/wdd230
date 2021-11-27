@@ -120,6 +120,7 @@ td:hover,
 .grid-col:hover {
  opacity: 0.75;
  background-color: #db5461;
+ box-shadow: 10px #74C69D;
  color: white;
 }
 
@@ -142,7 +143,7 @@ td:hover,
  padding: 0 5px 5px;
  font-size: 1rem;
  text-align: center;
- color: #081C15 ;
+ color: white ;
 }
 
 
