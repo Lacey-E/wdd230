@@ -1,0 +1,311 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav ul.hide {
+  display:none;
+}   
+nav button {
+ background-color: transparent;
+ border: none;
+ font-size: 2rem;
+ color: #fff;
+ margin-left: 5px;
+}
+
+nav {
+ background-color: #1B4332;
+ font-family: "Roboto", sans-serif;
+ font-size: 20px;
+
+}
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+nav ul li a {
+ display: block;
+ padding: .8rem 2%;
+ text-decoration: none;
+ color: #fff;
+ border-top: solid #db5461;
+}
+
+nav ul li:hover {background-color:#FFD9CE;}
+
+nav ul li a:hover {
+ background-color: #ffd9ce
+}
+
+nav ul li.active a{background-color: #db5461;color: #fff;}
+
+nav ul.hidenav {display: none;}
+
+
+
+
+/* ****************footer********************* */
+
+footer {
+ font-family: Arial, Helvetica, sans-serif;
+ padding-left: 5px;
+ padding-right: 5px;
+  margin-top: 2rem;
+}
+
+.social {
+ text-align:center;
+ color: white;
+ font-family: 'Explora', Arial, Helvetica, sans-serif;
+ font-size: 30px;
+ background-color: #1b4332;
+ margin-bottom: -1em;
+}
+
+.map{
+ display: none;
+}
+
+.contact {
+ text-align: center;
+ background-color: #74c69d;
+ position: relative;
+ padding: 2em;
+ height: 4em;
+}
+
+.map{
+ display: none;
+}
+
+/* ***************** Header  ****************** */
+
+header {
+ background-color: #74c69d;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-left: 2px;
+ padding-right: 2px;
+}
+
+.header-title {
+ padding: 0em 2em;
+ flex-direction: column;
+}
+
+
+
+.phrase {
+ margin: -2em;
+ padding-bottom: 2em;
+ text-align: center;
+ font-family: "Roboto", sans-serif;
+ font-size: 15px;
+}
+
+
+
+/* *************Content************ */
+.content {
+ padding: 10px;
+ max-width: 100%;
+ display: block;
+
+}
+
+h2 {
+ font-family: "Explora", cursive;
+ font-size: 35px;
+ color: #081C15;
+}
+
+
+.herodiv {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  
+}
+
+.hero-ph {
+  width: 100%;
+  height: 300px
+}
+
+.weathersummary {
+  display: block;
+  border: 3px solid #1B4332;
+  padding: .5rem;
+  margin-top: 2rem;
+  box-shadow: 5px 0px 5px 2px #db5461;
+  background: radial-gradient(#74C69D, #1B4332);
+  opacity: .9;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width:20rem;
+}
+
+.article {
+  display: block;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #74C69D;
+  margin-top: 2rem;
+}
+
+.day-image{
+  display: none;
+}
+
+.article-image {
+  width: 75%;
+  height: 50%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+/*
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #db5461;
+}
+
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+  float: right;
+}
+
+.content {
+  padding: 0.3em;
+}
+
+.phrase {
+  margin: -2em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+
+
+.contact {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+.herodiv {
+  position: relative;
+}
+
+.hero-ph {
+  height: auto;
+  text-align: center;
+}
+
+.weathersummary {
+  max-width: max-content;
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  font-size: 10px;
+  box-shadow: 0 0 20px #db5461;
+  padding: 0.5rem;
+  background: radial-gradient(#74c69d, #1b4332);
+  opacity: 0.9;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.article {
+  display: block;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+  display: none;
+}
+.content {
+  width: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color:#ccc;
+}
+
+.social {
+  text-align:center;
+  color: white;
+  font-family: 'Explora';
+  font-size: 30px;
+  background-color: #1b4332;
+}
+.contact {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  background-color: #74c69d;
+}
+.map{
+  display: none;
+} */
+
+
+
+
+
+
+
+
+/*end medium */
+
