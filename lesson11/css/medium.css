@@ -1,7 +1,16 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
-.weathersummary{
-    margin-top: 5em;
+    .weathersummary {
+        position: absolute;
+        top: 50px;
+        left: 150px;
+        box-shadow: 5px 10px 20px 10px #db5461;
+        font-size: 15px;
+         max-width: fit-content;
+         margin-top: 0px;
+        }
+.hero-ph{
+    max-width: 400px;
+    height: 50%
 }
-
 }
