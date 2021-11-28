@@ -97,13 +97,13 @@
 th {
  font-weight: 700;
  font-size: 1rem;
- background-color: #1B4332;
+ background-color: #db5461;
  color: white;
 }
 
 .flex-col {
  flex: 1 1 auto;
- background-color: #74C69D;
+ background-color: #1B4332;
 }
 
 .flex-col,
@@ -209,6 +209,11 @@ section.town {
   margin-top: 5rem;
   font-size: 25px;
 }
+ 
+ 
+ 
+ 
+ 
  
  
  

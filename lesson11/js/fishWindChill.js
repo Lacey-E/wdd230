@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=b4632dbb5d0b503e5f8c44170654d4ef';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=b4632dbb5d0b503e5f8c44170654d4ef';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -30,7 +30,7 @@ fetch(apiURL)
 
 });
 
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b4632dbb5d0b503e5f8c44170654d4ef';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=b4632dbb5d0b503e5f8c44170654d4ef';
 fetch(forecastURL)
     .then((response) => response.json())
     .then((forecast) => {
@@ -87,30 +87,42 @@ fetch(forecastURL)
     
 
      })
-const townURL = "https://byui-cit230.github.io/weather/data/towndata.json"
-
-fetch(townURL)
-    .then(function (response) {
-    return response.json();
-    })
-
-    .then(function (jsonObject) {
-       
-        const towns = jsonObject ["towns"]
-        getInformation(towns, 6)
-        
-    });
 
 
-function getInformation (list, index){
-    const events = list[index].events
-    for (let i = 0; i < events.length; i ++) {
-        let event = document.createElement("p")
-        event.textContent = events[i]
-        document.querySelector("section.town").appendChild(event)
-    };
 
-}
+     const townURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+     // Fetching to get the events 
+     fetch(townURL)
+         .then(function (response) {
+         return response.json();
+         })
+     
+         .then(function (jsonObject) {
+             // Create a list from JSON file
+             const towns = jsonObject ["towns"]
+             getInformation(towns, 2)
+             
+         });
+     
+     // Function that will iterate through the Towns list and get events of that town
+     function getInformation (list, index){
+         const events = list[index].events
+         for (let i = 0; i < events.length; i ++) {
+             let event = document.createElement("p")
+             event.textContent = events[i]
+             document.querySelector("section.town").appendChild(event)
+         };
+     
+     }
+
+
+
+
+
+
+
+
+
 
 
 
