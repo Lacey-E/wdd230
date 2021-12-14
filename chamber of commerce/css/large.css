@@ -1,0 +1,267 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+  
+  
+ 
+  nav button {display: none;}
+
+  
+  nav ul.hide {
+    display:flex;
+ }   
+
+  nav ul {
+    margin: 0;
+  }
+  
+  nav ul {display: flex; }
+  nav ul li {flex: 1 1 100%; }
+
+  nav ul li {float: left;
+  text-align: center;}
+
+  nav ul li a {
+    border: none;
+    flex: 1 1 auto;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  
+  
+  
+  
+  
+  /* *************Footer****** */
+  .map-space{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 10px 10px;
+  }
+
+  .map{
+    display: inherit;
+    grid-column: 1;
+    margin-left: 60px;
+  }
+  
+  
+  .social {
+    text-align:center;
+    color: white;
+    font-family: 'Charm', cursive; 
+    font-size: 40px;
+    grid-column: 3;
+    margin-top: 300px;
+  }
+  
+  
+  .contact{
+    padding-top: 3em;
+    background-color: goldenrod;
+    color: black;
+  }
+  
+  .footer-top{
+    display: flex; 
+    background-color: white;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-end;
+    padding-top: 5px;
+    font-size: 25px;
+    height: 80px;
+   color: #D90429;
+   padding-left: 50px;
+   border: 5px solid black;
+   margin-top: 200px;
+  }
+
+
+
+
+  
+  /* ******************Header**************** */
+  
+  .phrase{
+    
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;} 
+  
+    h2 {
+      font-family:'Charm', cursive; 
+      font-size: 40px;
+      
+    }
+   
+  
+  
+  /* _________________________main___________________ */
+  
+  .content{
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  section.advert {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+  }
+
+  
+  
+  div.business-1{
+    display: flex;
+    flex-direction: column;   
+  }
+
+  div.business-2 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  div.business-3 {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+.top-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  margin-bottom: 5em;
+}
+
+.top-section img{
+  width: 100%;
+}
+
+textarea{
+  width: 800px;
+}
+
+.mapouter{
+  display: contents;
+}
+/* **************************** ibadan**************************************** */
+
+
+.spec{
+   
+    font-size: 40px;
+    margin-top: 150px;
+   
+}
+
+
+
+h1{
+  font-size: 50px;
+}
+
+p{
+  font-family:'Ubuntu', sans-serif;
+  font-size: 25px;
+  
+}
+
+body {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  /* nav button {
+    display: none;
+  }
+nav{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+  nav ul li {
+    float: left;
+    
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .6rem 1rem;
+    
+  }
+  nav ul.hide {
+    display: block;
+  }
+
+   .header-title {
+    justify-content: flex-start;
+  } 
+
+  .social {
+    text-align:center;
+    color: white;
+    font-family: 'Explora';
+    font-size: 50px;
+  }
+  .map-space{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1B4332;
+    width: 1500px;
+    padding: 5px;
+  }
+
+  .map{
+    display: inherit;
+  }
+  .contact{
+    padding-top: 3em;
+  }
+  
+
+
+
+  h2 {
+    font-family: "Explora", cursive; 
+    font-size: 60px;
+    color: #081C15;
+  }
+  .content{
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .phrase{
+    margin: -2em;
+    padding-bottom: 3em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;} */
+
+    
+    
+
+} /*end large */

@@ -176,6 +176,7 @@ td:hover,
   article.town2 {
     display: flex;
     flex-direction: column;
+    background-color: white;
   }
 
   article.town6 {
