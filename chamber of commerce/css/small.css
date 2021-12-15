@@ -136,9 +136,7 @@ header {
 
 
 .phrase {
-  position: relative;
-  top: -20px;
- margin-left: 300px;
+ margin-left: 20px;
   text-align: center;
   font-family:'Ubuntu', sans-serif;
   font-size: 15px;
