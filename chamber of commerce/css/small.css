@@ -482,6 +482,24 @@ main picture.d-img img{
   width: 50%;
 }
 
+
+.cards{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";

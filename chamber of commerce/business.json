@@ -4,49 +4,49 @@
         "name": "Dots ",
         "lastname": "Fashion",
         "motto": "Learn Fashion The Itallian Way",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "imageurl": "images/direc-1.jpg"
       },
       {
         "name": "Zartech",
         "lastname": "Farms",
         "motto": "Meat and Poultry",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "imageurl": "images/direc-2.jpg"
       },
       {
         "name": "Hajiks",
         "lastname": "Empire",
         "motto": "Everything Fashion",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+        "imageurl": "images/direc-3.jpg"
       },
       {
         "name": "Foodco",
         "lastname": "Ibadan",
         "motto": "Healthy food at your doorstep",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+        "imageurl": "images/direc-4.jpg"
       },
       {
         "name": "Shoprite",
         "lastname": "Ibadan",
         "motto": "Lowest prices you can always trust",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+        "imageurl": "images/direc-5.jpg"
       },
       {
         "name": "Sumal",
         "lastname": "Foods",
         "motto": "Love at first bite",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+        "imageurl": "images/direc-6.jpg"
       },
       {
         "name": "Bite",
         "lastname": "More",
         "motto": "The suprem taste", 
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+        "imageurl": "images/direc-7.jpg"
       },
       {
         "name": "Film-House",
         "lastname": "Cinema",
         "motto": "Movies Movies",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+        "imageurl": "images/direc-8.jpg"
       }
     ]
   }
