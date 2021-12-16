@@ -1,0 +1,52 @@
+{
+    "prophets": [
+      {
+        "name": "Dots ",
+        "lastname": "Fashion",
+        "motto": "Learn Fashion The Itallian Way",
+        "imageurl": "images/direc-1.jpg"
+      },
+      {
+        "name": "Zartech",
+        "lastname": "Farms",
+        "motto": "Meat and Poultry",
+        "imageurl": "images/direc-2.jpg"
+      },
+      {
+        "name": "Hajiks",
+        "lastname": "Empire",
+        "motto": "Everything Fashion",
+        "imageurl": "images/direc-3.jpg"
+      },
+      {
+        "name": "Foodco",
+        "lastname": "Ibadan",
+        "motto": "Healthy food at your doorstep",
+        "imageurl": "images/direc-4.jpg"
+      },
+      {
+        "name": "Shoprite",
+        "lastname": "Ibadan",
+        "motto": "Lowest prices you can always trust",
+        "imageurl": "images/direc-5.jpg"
+      },
+      {
+        "name": "Sumal",
+        "lastname": "Foods",
+        "motto": "Love at first bite",
+        "imageurl": "images/direc-6.jpg"
+      },
+      {
+        "name": "Bite",
+        "lastname": "More",
+        "motto": "The suprem taste", 
+        "imageurl": "images/direc-7.jpg"
+      },
+      {
+        "name": "Film-House",
+        "lastname": "Cinema",
+        "motto": "Movies Movies",
+        "imageurl": "images/direc-8.jpg"
+      }
+    ]
+  }

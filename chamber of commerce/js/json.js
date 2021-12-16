@@ -1,3 +1,23 @@
+const today = new Date();
+
+const options = {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+};
+let path = today.toLocaleDateString('en-uk', options)
+document.getElementById("time").textContent = path;
+var time = today.getHours() + ":" + today.getMinutes();
+
+function toggleMenu() {
+    document.getElementById("primarynav").classList.toggle("hide");
+}
+
+
+
+
+
 const requestURL = 'https://lacey-e.github.io/wdd230/chamber%20of%20commerce/business.json';
 
 fetch(requestURL)
