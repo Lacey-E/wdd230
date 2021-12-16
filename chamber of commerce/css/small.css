@@ -131,6 +131,7 @@ header {
   text-align: center;
   flex-direction: column;
   padding-left: 12px;
+  font-size: 20px;
 }
 
 
@@ -196,9 +197,8 @@ body{
 }
 h2 {
   font-family: "Explora", cursive;
-  font-size: 35px;
-
 }
+
 .title{
   color: #fff;
 }
@@ -230,12 +230,13 @@ h2 {
 
 .sign-button{
  
-  width: 200px;
+  width: 150px;
   height: 55px;
   background-color: #D90429;
   margin-top: 25px;
   margin-bottom: 1px;
   color: #fff;
+  text-align: center;
 }
 
 .sign-button :hover {
