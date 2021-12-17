@@ -37,7 +37,7 @@ fetch(requestURL)
   
       card.setAttribute("class", `order${prophets[i].order}`)
       h2.textContent = `${prophets[i].name} ${prophets[i].lastname}`;
-      bday.textContent = `Birth Date: ${prophets[i].motto}`;
+      bday.textContent = `Motto: ${prophets[i].motto}`;
 
       
       image.setAttribute("src", `images/${prophets[i].photo}`);
