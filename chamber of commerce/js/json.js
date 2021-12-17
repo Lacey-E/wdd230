@@ -40,8 +40,7 @@ fetch(requestURL)
       bday.textContent = `Birth Date: ${prophets[i].motto}`;
 
       
-    
-      image.setAttribute("src", prophets[i].imageurl);
+      image.setAttribute("src", `images/${list[index].photo}`);
       image.setAttribute("alt", `${prophets[i].name} ${prophets[i].lastname} - ${prophets[i].order}`);
       card.appendChild(h2);
       card.appendChild(bday);
