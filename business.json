@@ -4,19 +4,19 @@
         "name": "Dots ",
         "lastname": "Fashion",
         "motto": "Learn Fashion The Itallian Way",
-        "imageurl": "direc-1.jpg"
+        "photo": "direc-1.jpg"
       },
       {
         "name": "Zartech",
         "lastname": "Farms",
         "motto": "Meat and Poultry",
-        "imageurl": "direc-2.jpg"
+        "photo": "direc-2.jpg"
       },
       {
         "name": "Hajiks",
         "lastname": "Empire",
         "motto": "Everything Fashion",
-        "imageurl": "direc-3.jpg"
+        "photo": "direc-3.jpg"
       },
       {
         "name": "Foodco",
@@ -28,25 +28,25 @@
         "name": "Shoprite",
         "lastname": "Ibadan",
         "motto": "Lowest prices you can always trust",
-        "imageurl": "direc-5.jpg"
+        "photo": "direc-5.jpg"
       },
       {
         "name": "Sumal",
         "lastname": "Foods",
         "motto": "Love at first bite",
-        "imageurl": "direc-6.jpg"
+        "photo": "direc-6.jpg"
       },
       {
         "name": "Bite",
         "lastname": "More",
         "motto": "The suprem taste", 
-        "imageurl": "direc-7.jpg"
+        "photo": "direc-7.jpg"
       },
       {
         "name": "Film-House",
         "lastname": "Cinema",
         "motto": "Movies Movies",
-        "imageurl": "direc-8.jpg"
+        "photo": "direc-8.jpg"
       }
     ]
   }
