@@ -486,12 +486,35 @@ main picture.d-img img{
 .cards{
   display:grid;
   grid-template-columns: 1fr;
-  grid-gap: 10px;
+  grid-gap: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   color: white;
 }
 
+.cards img:hover{
+    
+  opacity: 0.75;
+  background-color: #081C15;
+  color: white; 
+}
+
+.cards img{
+  box-shadow: 5px 0 5px;
+ margin-top: -1rem;
+ max-width: 100%;
+}
+
+.cards section:hover{
+  opacity: 0.75;
+  background-color: #D90429;
+  color: white;
+  
+}
+
+.cards section{
+  text-align: center;
+}
 
 
 
